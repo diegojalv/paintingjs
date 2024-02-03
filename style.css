@@ -6,7 +6,7 @@ body {
 }
 
 header, footer {
-    background-color: #333;
+    background-color: rgb(40, 103, 175);
     color: white;
     text-align: center;
     padding: 10px;
@@ -18,16 +18,24 @@ h1, h2 {
 
 main {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column; /* Change to column layout */
+    align-items: center; /* Center items horizontally */
     margin-top: 20px;
 }
 
-.left, .right {
-    width: 45%;
+.stand, .animation {
+    width: 80%; /* Adjust width as needed */
+    margin-bottom: 20px; /* Add margin between the two sections */
+    text-align: center; /* Center text within the containers */
 }
 
 #standard, #custom-animation {
     margin-top: 10px;
+}
+
+canvas {
+    display: block; /* Remove any default canvas styling */
+    margin: 0 auto; /* Center the canvas within its container */
 }
 
 footer a {
