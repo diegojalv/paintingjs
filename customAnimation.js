@@ -34,7 +34,7 @@ var stand = function (any) {
 };
 
 // Create an instance of the stand sketch
-var myp5Stand = new p5(stand, "stand");
+var myp5Stand = new p5(stand, "standard");
 
 var animation = function (any) {
     var startTime;
@@ -78,4 +78,4 @@ var animation = function (any) {
 };
 
 
-var myp5 = new p5(animation, "animation");
+var myp5 = new p5(animation, "custom-animation");
